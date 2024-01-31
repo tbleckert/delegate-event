@@ -1,7 +1,7 @@
 {
     "name": "@bleckert/delegate-event",
     "repository": "https://github.com/tbleckert/delegate-event",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple DOM event delegation",
     "source": "src/index.js",
     "module": "dist/module.js",
