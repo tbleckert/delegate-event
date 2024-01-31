@@ -1,0 +1,34 @@
+{
+    "name": "@bleckert/delegate-event",
+    "repository": "https://github.com/tbleckert/delegate-event",
+    "version": "1.0.0",
+    "description": "Simple DOM event delegation",
+    "source": "src/index.js",
+    "module": "dist/module.js",
+    "exports": "./dist/module.js",
+    "type": "module",
+    "scripts": {
+        "watch": "parcel watch",
+        "build": "parcel build",
+        "size": "size-limit"
+    },
+    "size-limit": [
+        {
+            "path": "dist/module.js",
+            "limit": "0.1 kB"
+        }
+    ],
+    "keywords": [
+        "js",
+        "dom",
+        "event",
+        "delegation"
+    ],
+    "author": "Tobias Bleckert",
+    "license": "MIT",
+    "devDependencies": {
+        "@size-limit/preset-small-lib": "^11.0.2",
+        "parcel": "^2.11.0",
+        "size-limit": "^11.0.2"
+    }
+}
