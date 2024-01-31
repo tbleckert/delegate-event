@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/npm/v/@bleckert/delegate-event?style=for-the-badge" alt="NPM" />
     </a>
     <a href="https://bundlephobia.com/result?p=@bleckert/delegate-event">
-        <img src="https://img.shields.io/bundlephobia/minzip/@bleckert/events?style=for-the-badge" />
+        <img src="https://img.shields.io/bundlephobia/minzip/@bleckert/delegate-event?style=for-the-badge" />
     </a>
     <a href="https://github.com/sponsors/tbleckert">
         <img src="https://img.shields.io/badge/GitHub-donate-yellow?style=for-the-badge" />
