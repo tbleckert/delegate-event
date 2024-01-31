@@ -11,7 +11,7 @@ export default function delegateEvent(event, selector, fn, context = document) {
         }
     }
 
-    context.addEventListener(event, (e) => handler);
+    context.addEventListener(event, (e) => handler(e));
 
     return () => context.removeEventListener(event, handler);
 }
